@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 100vh;
+    padding: 5rem;
+    padding-bottom: 0;
+}
+.heading{
+    width: 100%;
+    height: 12%;
+    padding: 1rem; 
+    margin-bottom: 4rem;
+}
+.heading h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    color: grey;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+
+}
+.formContainer label{
+    font-size: 2.3rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+
+}
+.formContainer input{
+    margin-bottom: 2rem;
+    display: inline-block;
+    width: 100%;
+    height: 4rem;
+    border-radius: 20rem;
+    border-style: none;
+    background-color: rgba(238, 229, 229, 0.712);
+    box-shadow:  0px 2px 6px rgb(207, 203, 203);
+}
+.btnContainer{
+    width: 100%;
+    height: 6rem;
+    margin-bottom: 2rem;
+
+}
+.btn {
+    width: 100%;
+    height: 4rem;
+    background-color: #4b7ad6;
+    box-shadow:  0px 2px 6px #5d79b3;
+    border-radius: 20rem;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+}
+ 
+h2{
+    color: white;
+    font-size: 1.6rem ;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-shadow:0 -1px -5px white ;
+    
+}
+a{
+    text-decoration: none;
+}
+.dialouge{
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.forgot{
+    display: flex;
+    justify-content: space-evenly;
+}
+h3{
+    font-size: 1.5rem;
+    padding: 1rem 1rem 0 1rem;
+    text-transform: capitalize;
+    color: grey;
+    border-bottom: 1px solid grey;
+    transition: 0.3s;
+
+    
+}
+h3:hover{
+    border-bottom: 2px solid black;
+
+}
+.forgot p{
+    padding: .8rem;
+    font-size: 2rem;
+    
+
+}
+.or{
+    display: flex;
+}
+
+.or h3{
+    border-bottom: none;
+    font-size: 1.8rem;
+}
+.signup{
+    width: 100%;
+    height: 4rem;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+.signup:hover{
+    background-color: #000;
+    color: white;
+}
+.signup h2{
+    width: 108%;
+    color: black;
+    padding: 1rem;
+
+
+
+}
+.signup h2:hover{
+    color: white;
+}
+.copyright{
+    width: 100%;
+    height: 3rem;
+    margin-top: 14rem;
+    display: flex;
+    align-items: center;
+}
+.copyright p{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.copyright .name{
+    width: 30%;
+
+}.copyright .privacy{
+    width: 40%;
+}
+.copyright .contact{
+    width: 30%;
+}
